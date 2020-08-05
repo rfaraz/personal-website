@@ -71,6 +71,7 @@ li a {
 /* Text on home page*/
 .intro-text{
   border-left: 10px solid #7f4882;
+  border-right: 10px solid #7f4882;
 }
 
 /* Divider borders*/
@@ -104,6 +105,8 @@ li a {
 
 .portfolio-head{
   border-bottom: 5px dotted #7f4882;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 /* Adjust images*/
@@ -144,6 +147,12 @@ li a {
 
 #energy-fluent{
   margin: 25px;
+}
+
+#gwc-logo{
+  border-radius: 50%;
+  padding: 5px;
+  border: 5px solid #00999e;
 }
 
 /* Flex box layout*/ 
