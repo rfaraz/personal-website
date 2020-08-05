@@ -112,12 +112,13 @@ li a {
 /* Adjust images*/
 #html{
   margin: 20px;
+  border: 1px solid #00999e;
   height: 300px;
 }
 
 #css{
   margin: 20px;
-  border: 1px solid #152242;
+  border: 1px solid #00999e;
   height: 300px;
 }
 
