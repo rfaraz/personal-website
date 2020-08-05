@@ -1,33 +1,154 @@
-/*TODO: Add a background color or image to your website*/
+/*Reset the margin and padding to 0px*/
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Set background color and set the headers and text*/
+
 body {
- background-color: #ffffff; 
+  background-color: #e6ffff; 
+}
+
+h2 {
+  color: #00999e;
+  padding: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-style: bold;
+}
+h3 {
+  color: #00999e;
+  padding: 25px;
+  font-family: 'Nunito', sans-serif;
+  font-style: italic;
+}
+p {
+  color: #00999e;
+  padding: 25px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+/* Navigation Bar*/
+ul {
+  list-style-type: none;
+  padding-left: 25px;
+  padding-bottom: 25px;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+/* Set navigation bar background and text color*/
+.header {
+  background-color: #152242;
+  color: #ffffff;
+  font-family: 'Montserrat', sans-serif;
 }
 
 
-h1 {
-  color: teal;
+/* Put a border around the website title*/
+.head {
+  border: 25px solid #152242;
 }
 
+/* Put a margin around all bodies*/
+.body{
+  margin: 25px;
+  text-align: center;
+}
 
-/*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
+.portfolio-body{
+  margin: 15px;
+}
 
+/* Text on home page*/
+.intro-text{
+  border-left: 10px solid #7f4882;
+}
 
+/* Divider borders*/
+.html{
+  border-bottom: 2px solid #00999e;
+}
 
+.css{
+  border-bottom: 2px solid #00999e;
+}
 
-/*TODO: Use the * selector to reset the margin and padding to 0px*/
+.about-header{
+  border-bottom: 5px dotted #7f4882;
+}
 
+.background{
+  border-bottom: 2px solid #00999e;
+}
 
+.interest{
+  border-bottom: 2px solid #00999e;
+}
 
+.experience-header{
+  border-bottom: 5px dotted #7f4882;
+}
 
+.experience-closing{
+  border-top: 2px solid #00999e;
+}
 
-/*TODO: Add styling rules for the text and images on your website.*/
+.portfolio-head{
+  border-bottom: 5px dotted #7f4882;
+}
 
+/* Adjust images*/
+#html{
+  margin: 20px;
+  height: 300px;
+}
 
+#css{
+  margin: 20px;
+  border: 1px solid #152242;
+  height: 300px;
+}
 
+#selfie{
+  margin: 20px;
+  padding: 5px;
+  border: 5px solid #7f4882;
+}
 
-/*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
+#profile{
+  border-radius: 50%;
+  border: 10px solid #7f4882;
+  padding: 5px;
+}
 
+#about-pics{
+  margin: 20px;
+}
 
+#travel{
+  height: 330px;
+}
 
+#blossom{
+  margin: 25px;
+}
 
-/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;/ 
+#energy-fluent{
+  margin: 25px;
+}
+
+/* Flex box layout*/ 
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

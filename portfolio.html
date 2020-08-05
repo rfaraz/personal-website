@@ -9,41 +9,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/styles.css" />
     <script src="/script.js" defer></script>
+    <!-- Font Link -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <!-- Navigation Bar -->
-    <div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="about.html">About Me</a></li>
-          <li><a href="experience.html">Experience</a></li>
-        </ul>
-      </nav>
-    </div>
+    <!-- Portfolio Screen -->
+    <div class="portfolio">
+      <!-- Navigation Bar -->
+      <div class="header">
+        <div class="head">
+          <!-- Website Heading-->
+          <h1>Rida Faraz</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html">Portfolio</a></li>
+            <li><a href="about.html">About Me</a></li>
+            <li><a href="experience.html">Experience</a></li>
+          </ul>
+        </nav>
+      </div>
 
-    <!-- Portfolio Heading -->
-    <h1>Rida's Portfolio</h1>
-    
-    <!-- Project one -->
-    <div>
-      <p>
-        This is my very first project as part of the Girls Who Code Summer
-        Immersion Program. I got introduced to HTML, and built a very simple
-        personal website.
-      </p>
-      <img
-        src="https://cdn.glitch.com/d6004ffc-b47b-4bab-a1da-c03df7f79759%2Fthumbnails%2FScreen%20Shot%202020-08-04%20at%201.44.09%20AM.png?1596530711175" 
-      />
+      <div class="portfolio-body">
+        <div class="portfolio-head">
+          <!-- Portfolio Heading -->
+          <h2>Rida's Portfolio</h2>
+        </div>
+        <div class="container">
+          <div class="project">
+            <!-- Project One -->
+            <div class="html">
+              <h3>HTML Personal Website</h3>
+              <p>
+                This is my very first project as part of the Girls Who Code
+                Summer Immersion Program. I got introduced to HTML, and built a
+                very simple personal website.
+              </p>
+              <img
+                src="https://cdn.glitch.com/d6004ffc-b47b-4bab-a1da-c03df7f79759%2Fthumbnails%2FScreen%20Shot%202020-08-04%20at%201.44.09%20AM.png?1596530711175"
+                id="html"
+              />
+            </div>
+          </div>
+          <div class="project">
+            <!-- Project Two -->
+            <div class="css">
+              <h3>CSS Personal Website</h3>
+              <p>
+                This is my personal website after implementing CSS. The design
+                is much more enhanced and better to look at. In fact, you're using it right now!
+              </p>
+              <!-- filler Image -->
+              <img
+                src="https://cdn.glitch.com/d6004ffc-b47b-4bab-a1da-c03df7f79759%2Fthumbnails%2FScreen%20Shot%202020-08-05%20at%2012.06.53%20AM.png?1596611254849"
+                id="css"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Closing -->
+        <div>
+          <p>
+            As I continue working through the week, I will have completed all
+            sorts of new projects and learned new concepts.
+          </p>
+        </div>
+      </div>
     </div>
-    
-    <!-- Project New -->
-    <div>
-      <p>
-        As I continue working through the week, I will have completed all sorts of new projects and learned new concepts.
-      </p>
-    </div>
-    
   </body>
 </html>
