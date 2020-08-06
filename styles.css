@@ -156,9 +156,12 @@ li a {
   border: 5px solid #00999e;
 }
 
+#quiz{
+  margin: 25px;
+  height: 300px;
+}
+
 /* Flex box layout*/ 
-.container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.projects {
+  text-align: center;
 }
